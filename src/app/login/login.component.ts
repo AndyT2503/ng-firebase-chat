@@ -1,5 +1,4 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { AuthService } from '../shared/auth';
 
 @Component({
@@ -7,8 +6,8 @@ import { AuthService } from '../shared/auth';
   standalone: true,
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class LoginComponent {
- readonly authService = inject(AuthService);
+  readonly authService = inject(AuthService);
 }

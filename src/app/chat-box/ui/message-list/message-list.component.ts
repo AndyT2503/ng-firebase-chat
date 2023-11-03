@@ -14,8 +14,7 @@ import {
   collectionData,
   limit,
   orderBy,
-  query,
-  startAfter,
+  query
 } from '@angular/fire/firestore';
 import { Observable, map } from 'rxjs';
 import { MESSAGES_COLLECTION_PATH } from 'src/app/shared/const';

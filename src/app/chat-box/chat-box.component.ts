@@ -1,5 +1,4 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { InputMessageComponent } from './ui/input-message/input-message.component';
 import { MessageListComponent } from './ui/message-list/message-list.component';
 
@@ -9,8 +8,6 @@ import { MessageListComponent } from './ui/message-list/message-list.component';
   imports: [InputMessageComponent, MessageListComponent],
   templateUrl: './chat-box.component.html',
   styleUrls: ['./chat-box.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export default class ChatBoxComponent {
-
-}
+export default class ChatBoxComponent {}

@@ -1,6 +1,5 @@
+import { NgIf } from '@angular/common';
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
-import { CommonModule, NgIf } from '@angular/common';
-import { toSignal } from '@angular/core/rxjs-interop';
 import { AuthService } from 'src/app/shared/auth';
 
 @Component({
@@ -9,8 +8,8 @@ import { AuthService } from 'src/app/shared/auth';
   imports: [NgIf],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeaderComponent {
-  readonly authService = inject(AuthService)
+  readonly authService = inject(AuthService);
 }
