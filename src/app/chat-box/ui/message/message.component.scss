@@ -1,0 +1,39 @@
+.message {
+  display: flex;
+  gap: 8px;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: contain;
+    text-align: center;
+  }
+  .content {
+    background-color: #F0F2F5;
+    padding: 8px;
+    min-width: 300px ;
+    border-radius: 6px;
+    p {
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+
+    .username {
+      font-weight: 600;
+    }
+
+    .text {
+      max-width: 450px;
+
+    }
+
+    .date {
+      font-size: small;
+      text-align: right;
+    }
+  }
+}

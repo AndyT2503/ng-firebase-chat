@@ -1,0 +1,25 @@
+header {
+  background-color: #3690E2;
+  padding: 8px;
+  color: white;
+  display: flex;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    i {
+      margin-right: 8px;
+    }
+  }
+
+  .username {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    a {
+      cursor: pointer;
+    }
+  }
+}

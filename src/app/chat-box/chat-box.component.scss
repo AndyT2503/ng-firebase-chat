@@ -1,0 +1,11 @@
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  .message-list {
+    overflow: hidden;
+    height: 100%;
+  }
+}

@@ -1,0 +1,8 @@
+<div class="message" [ngClass]="{'reverse': isCurrentUser}">
+  <img [src]="message.avatar" />
+  <div class="content">
+    <p class="username">{{ message.name }}</p>
+    <p class="text">{{ message.text }}</p>
+    <p class="date">{{ message.createdAt | date: 'medium' }}</p>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<header>
+  <div class="logo">
+    <i class="fa-brands fa-angular" style="color: #dd0031; font-size: 48px"></i>
+    <h3>NG-FIREBASE-CHAT</h3>
+  </div>
+  <div class="username" *ngIf="authService.isAuthenticated()">
+    <h3>{{ authService.user()!.displayName }}</h3>
+    - <a (click)="authService.logout()">Logout</a>
+  </div>
+</header>

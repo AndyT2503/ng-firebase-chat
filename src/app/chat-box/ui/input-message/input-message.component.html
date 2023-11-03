@@ -1,0 +1,11 @@
+<div class="input-form">
+  <div class="input-group">
+    <input
+      #inputMsg
+      type="text"
+      (keydown.enter)="sendMessage(inputMsg)"
+      placeholder="Type message..."
+    />
+    <button (click)="sendMessage(inputMsg)">Send</button>
+  </div>
+</div>

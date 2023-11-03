@@ -1,0 +1,11 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyCiWUMHSxk8x2rLtLPUwyYvmbyKVuHMuhY",
+    "authDomain": "ng-firebase-chat-1d788.firebaseapp.com",
+    "projectId": "ng-firebase-chat-1d788",
+    "storageBucket": "ng-firebase-chat-1d788.appspot.com",
+    "messagingSenderId": "82363647237",
+    "appId": "1:82363647237:web:9fd44284465d2df31ea36c",
+    "measurementId": "G-5RKM4F1JWX"
+  }
+}

@@ -1,0 +1,23 @@
+.message-list-container {
+  overflow: auto;
+  height: calc(100% - 32px);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3260a39c;
+}
+

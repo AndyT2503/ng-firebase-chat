@@ -1,0 +1,5 @@
+<div class="message-list-container" #scrollEle>
+  <ng-container *ngFor="let message of listMessage()">
+    <app-message [message]="message"></app-message>
+  </ng-container>
+</div>
